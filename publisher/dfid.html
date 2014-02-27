@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" />
+  <link rel="icon" href="favicon.ico" />
+  <title>
+IATI Dashboard - Validation
+</title>
+  <style>
+    .big-number {
+      font-size: 100px;
+    }
+    .title-number {
+      font-weight: bold;
+      float: left;
+      width: 20%;
+    }
+    .title-text {
+      float: left;
+    }
+    .panel-heading {
+        clear: both;
+    }
+    .break {
+        word-break:break-all;
+    }
+.tablesorter-default .tablesorter-header {
+	background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+	background-position: center left;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.tablesorter-default thead .headerSortUp,
+.tablesorter-default thead .tablesorter-headerSortUp,
+.tablesorter-default thead .tablesorter-headerAsc {
+	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+	border-bottom: #000 2px solid;
+}
+.tablesorter-default thead .headerSortDown,
+.tablesorter-default thead .tablesorter-headerSortDown,
+.tablesorter-default thead .tablesorter-headerDesc {
+	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+	border-bottom: #000 2px solid;
+}
+.tablesorter-header-inner {
+  margin-left:10px;
+}
+html,body{height:100%;}
+#wrap{min-height:100%;height:auto;margin:0 auto -60px;padding:0 0 60px;}
+#footer{height:80px;background-color:#f5f5f5;}
+.container .text-muted{margin: 20px 0 0 0;}
+  </style>
+  
+</head>
+<body>
+<div id="wrap">
+  <div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">IATI Dashboard</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="../index.html">Headlines</a></li>
+      <li class="active"><a href="../download.html">Data Quality</a></li>
+      <li ><a href="../elements.html">Exploring Data</a></li>
+      <li ><a href="../github.html">Github</a></li>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+      
+      <li><a href="../index.html">Home</a></li>
+      <li class="active"><a href="../publishers.html">Publishers</a></li>
+      <li><a href="../files.html">Files</a></li>
+      
+      
+      <li><a href="../download.html">Download Errors</a></li>
+      <li><a href="../xml.html">XML Errors</a></li>
+      <li><a href="../validation.html">Validation</a></li>
+      <li><a href="../versions.html">Versions</a></li>
+      <li class="active"><a href="../licenses.html">Licenses</a></li>
+      <li><a href="../organisation.html">Organisation XML</a></li>
+      
+      
+      
+      </ul>
+    </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div class="page-header">
+      <h1>Publisher: Department for International Development, United Kingdom</h1>
+      <p class="lead"></p>
+    </div>
+
+    <h2>Headlines</h2>
+
+    <div class="row">
+    <div class="col-md-6">
+    <div class="panel panel-default">
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td>On the Registry</td>
+                <td><a href="http://iatiregistry.org/publisher/dfid">dfid</a></td>
+            </tr>
+            <tr>
+                <td>Reporting Org(s)</td>
+                <td>
+                
+                <code>GB-1</code>
+                
+                </td>
+            </tr><tr>
+                <td>Activity Files</td>
+                <td>124</td>
+            </tr><tr>
+                <td>Organisation Files</td>
+                <td>1</td>
+            </tr><tr>
+                <td>Total File Size</td>
+                <td>73.8 MB</td>
+            </tr><tr>
+                <td>Activities</td>
+                <td>12935</td>
+            </tr><tr>
+                <td>Organisations</td>
+                <td>1</td>
+            </tr><tr>
+                <td>Versions</td>
+                <td>
+                
+                <code>1.01</code>
+                
+                <code>1.02</code>
+                
+                </td>
+            </tr><tr>
+                <td>Licenses</td>
+                <td>
+                
+                <code><a href="../license/uk-ogl.html">uk-ogl</a></code>
+                
+                </td>
+            </tr><tr>
+                <td>Files failing validation</td>
+                <td>
+                
+                    0
+                
+                </td>
+            </tr>
+        </body>
+    </table>
+    </div>
+    </div>
+    </div>
+
+    <h2>Data Quality</h2>
+
+    <p>This section will be blank if no issues were found.</p>
+
+    <div class="row">
+    
+
+    
+
+    
+
+    
+
+    </div><!-- .row -->
+
+    <h2>Exploring Data</h2>
+
+    <div class="panel panel-default">
+    <table class="table table-striped">
+    <div class="panel-heading">
+        <a href="http://arstneio.com/iati/stats/current/aggregated/dfid/elements.json" style="float:right">(J)</a>
+        <h3 class="panel-title">Elements and Attributes Published</h3>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Element/Attribute</th>
+                <th>Activities/Organisations</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>iati-activity</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/@default-currency</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/@hierarchy</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/@last-updated-datetime</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/@{http://www.w3.org/XML/1998/namespace}lang</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/activity-date</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/activity-date/@iso-date</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/activity-date/@type</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/activity-status</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/activity-status/@code</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/@type</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/period-end</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/period-end/@iso-date</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/period-start</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/period-start/@iso-date</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/value</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/value/@currency</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/budget/value/@value-date</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/collaboration-type</td>
+                <td>8780</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/collaboration-type/@code</td>
+                <td>8780</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/conditions</td>
+                <td>4139</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/conditions/@attached</td>
+                <td>4139</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/conditions/condition</td>
+                <td>478</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/conditions/condition/@type</td>
+                <td>478</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/contact-info</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/contact-info/email</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/contact-info/mailing-address</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/contact-info/organisation</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/contact-info/telephone</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-aid-type</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-aid-type/@code</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-finance-type</td>
+                <td>8181</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-finance-type/@code</td>
+                <td>8181</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-flow-type</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-flow-type/@code</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-tied-status</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/default-tied-status/@code</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/description</td>
+                <td>4079</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/@format</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/@url</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/category</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/category/@code</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/category/@{http://www.w3.org/XML/1998/namespace}lang</td>
+                <td>90</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/language</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/language/@code</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/title</td>
+                <td>1771</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/document-link/title/@{http://www.w3.org/XML/1998/namespace}lang</td>
+                <td>90</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/iati-identifier</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/legacy-data</td>
+                <td>8789</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/legacy-data/@iati-equivalent</td>
+                <td>8789</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/legacy-data/@name</td>
+                <td>8789</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/legacy-data/@value</td>
+                <td>8789</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/administrative</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/administrative/@country</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/coordinates</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/coordinates/@latitude</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/coordinates/@longitude</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/coordinates/@precision</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/location-type</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/location-type/@code</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/location/name</td>
+                <td>49</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/other-identifier</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/other-identifier/@owner-name</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/other-identifier/@owner-ref</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/participating-org</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/participating-org/@ref</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/participating-org/@role</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/participating-org/@type</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/policy-marker</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/policy-marker/@code</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/policy-marker/@significance</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/policy-marker/@vocabulary</td>
+                <td>8796</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/recipient-country</td>
+                <td>5657</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/recipient-country/@code</td>
+                <td>5657</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/recipient-region</td>
+                <td>3139</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/recipient-region/@code</td>
+                <td>637</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/related-activity</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/related-activity/@ref</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/related-activity/@type</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/reporting-org</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/reporting-org/@ref</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/reporting-org/@type</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/sector</td>
+                <td>8789</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/sector/@code</td>
+                <td>8789</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/sector/@percentage</td>
+                <td>4151</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/title</td>
+                <td>12935</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/description</td>
+                <td>7572</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/provider-org</td>
+                <td>7572</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/provider-org/@ref</td>
+                <td>7572</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/receiver-org</td>
+                <td>5312</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/receiver-org/@ref</td>
+                <td>5311</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/transaction-date</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/transaction-date/@iso-date</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/transaction-type</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/transaction-type/@code</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/value</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/value/@currency</td>
+                <td>7572</td>
+            </tr>
+            
+            <tr>
+                <td>iati-activity/transaction/value/@value-date</td>
+                <td>8569</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/@default-currency</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/@last-updated-datetime</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/document-link</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/document-link/@format</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/document-link/@url</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/document-link/category</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/document-link/category/@code</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/document-link/title</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/iati-identifier</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/name</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/period-end</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/period-end/@iso-date</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/period-start</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/period-start/@iso-date</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/recipient-country</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/recipient-country/@code</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/value</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/value/@currency</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/recipient-country-budget/value/@value-date</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget/period-end</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget/period-end/@iso-date</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget/period-start</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget/period-start/@iso-date</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget/value</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>iati-organisation/total-budget/value/@value-date</td>
+                <td>1</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    </div>
+
+
+  </div><!-- /.container -->
+
+</div>
+
+<div id="footer"><div class="container"><p class="text-muted"><a href="https://github.com/Bjwebb/IATI-Dashboard/">Source Code</a>. <a href="https://github.com/IATI/IATI-Dashboard/issues?state=open">Report bugs, and request features using Github issues</a>. Generated on <em>2014-02-27 17:31:46 +0000</em> from data downloaded <em>2014-02-25 02:21:02 +0000</em>. (NB This is the time the download task completed. Changes made in the preceding few hours may not be present).</p></div></div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.min.js"></script>
+<script>$(function() { $("table.table").tablesorter(); });</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-47211623-2', 'iati.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
